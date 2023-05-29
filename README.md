@@ -55,16 +55,35 @@ export default function Counter() {
 
 ```
 
-## VSCode Plugins
+## UI
 
-- https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-- https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
-- https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
-- https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
+这个模板使用了 Tailwind CSS，Radix UI 和 Shadcn UI 来处理样式和 UI 组件
 
+### 如何使用
+
+TODO:
+
+### 主题 & 自定义样式
+
+TODO:
+
+### 响应式设计
+
+TODO:
+
+## 项目状态和未来计划
+
+TODO:
 
 ## 必读
 - https://nextjs.org/docs/getting-started/react-essentials
 - https://github.com/pmndrs/zustand
 
-## server-only & client-only
+## Recommended VSCode plugins
+
+- https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+- https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+- https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+- https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
+- https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+
