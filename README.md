@@ -1,7 +1,15 @@
 ## 创建
 
+### 基础项目
+
 ```
 yarn create next-app -e https://github.com/heijinggh/nextjs-template
+```
+
+### 管理系统 Starter
+
+```
+yarn create next-app -e https://github.com/heijinggh/nextjs-template/tree/admin
 ```
 
 ## 运行
@@ -14,6 +22,7 @@ yarn dev
 
 - src/app
 - src/components 包含应用程序中的所有可复用组件
+  - src/components/ui UI相关
   - src/components/business 业务相关
   - src/components/layout 布局相关
   - src/components/shared 共享，通用，可以被 business 或 layout 中的组件引用
@@ -55,16 +64,40 @@ export default function Counter() {
 
 ```
 
-## VSCode Plugins
+## UI
 
-- https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-- https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
-- https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
-- https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
+这个模板使用了 [Tailwind CSS](https://tailwindcss.com/)，[Radix UI](https://www.radix-ui.com/) 和 [Shadcn UI](https://ui.shadcn.com/) 来处理样式和 UI 组件
 
+
+### 如何使用
+
+TODO:
+
+### 主题 & 自定义样式
+
+TODO:
+
+### 响应式设计
+
+TODO:
+
+## 多语言
+
+TODO:
+
+## 项目状态和未来计划
+
+TODO:
 
 ## 必读
 - https://nextjs.org/docs/getting-started/react-essentials
 - https://github.com/pmndrs/zustand
 
-## server-only & client-only
+## Recommended VSCode plugins
+
+- https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+- https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+- https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+- https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
+- https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+
