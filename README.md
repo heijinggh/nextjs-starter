@@ -14,6 +14,7 @@ yarn dev
 
 - src/app
 - src/components 包含应用程序中的所有可复用组件
+  - src/components/ui UI相关
   - src/components/business 业务相关
   - src/components/layout 布局相关
   - src/components/shared 共享，通用，可以被 business 或 layout 中的组件引用
