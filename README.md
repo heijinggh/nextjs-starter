@@ -57,7 +57,8 @@ export default function Counter() {
 
 ## UI
 
-这个模板使用了 Tailwind CSS，Radix UI 和 Shadcn UI 来处理样式和 UI 组件
+这个模板使用了 [Tailwind CSS](https://tailwindcss.com/)，[Radix UI](https://www.radix-ui.com/) 和 [Shadcn UI](https://ui.shadcn.com/) 来处理样式和 UI 组件
+
 
 ### 如何使用
 
