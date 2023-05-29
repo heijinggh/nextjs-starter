@@ -16,7 +16,7 @@ yarn dev
 - src/components 包含应用程序中的所有可复用组件
   - src/components/business 业务相关
   - src/components/layout 布局相关
-  - src/components/shared 共享，可以被 business 或 layout 中的组件引用
+  - src/components/shared 共享，通用，可以被 business 或 layout 中的组件引用
 - src/constants 用于存储应用中的常量，例如特定的字符串，配置值，或其他不变的值。
 - src/hooks 存储自定义的hooks
 - src/services 用于存储应用中的服务，这些服务可能与后端API交互，或者进行其他复杂的处理。
