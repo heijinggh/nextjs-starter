@@ -1,7 +1,15 @@
 ## 创建
 
+### 基础项目
+
 ```
 yarn create next-app -e https://github.com/heijinggh/nextjs-template
+```
+
+### 管理系统 Starter
+
+```
+yarn create next-app -e https://github.com/heijinggh/nextjs-template/tree/admin
 ```
 
 ## 运行
