@@ -1,8 +1,10 @@
-## Run
+## 创建
 
 ```
-yarn
+yarn create next-app -e https://github.com/heijinggh/nextjs-template
 ```
+
+## 运行
 
 ```
 yarn dev
