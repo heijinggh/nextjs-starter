@@ -32,3 +32,39 @@ yarn dev
 3. 避免使用空格：空格可能在不同的操作系统和工具中造成问题。而且，在URL中，空格需要被编码为 %20，这会使URL看起来不那么清晰。
 
 4. 避免使用特殊字符：特殊字符，如 !, @, #, $, %, ^, &, *, (, ), +, =, {, }, [, ], |, \, :, ;, ', ", <, >, ,, ?, / 可能在不同的操作系统和工具中造成问题
+
+## 路由
+
+如果你想创建一个路由为 playground/counter 的页面，你需要：
+
+1. 在 app 目录下，创建一个新的文件夹，命名为 playground。
+
+1. 在 playground 文件夹下，创建一个新的文件夹，命名为 counter。
+
+1. 在 counter 文件夹下，创建一个新的文件，命名为 page.tsx。
+
+1. 在 page.js 文件中，你需要默认导出一个 React 组件，这个组件将被渲染在 playground/counter 这个路由上。一个最简单的例子可能看起来像这样：
+
+```jsx
+// app/playground/counter/page.tsx
+import React from 'react';
+
+export default function Counter() {
+    return <h1>This is the counter page!</h1>;
+}
+
+```
+
+## VSCode Plugins
+
+- https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+- https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+- https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+- https://marketplace.visualstudio.com/items?itemName=GitHub.copilot
+
+
+## 必读
+- https://nextjs.org/docs/getting-started/react-essentials
+- https://github.com/pmndrs/zustand
+
+## server-only & client-only
